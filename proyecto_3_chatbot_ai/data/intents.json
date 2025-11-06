@@ -1,0 +1,24 @@
+{
+  "intents": [
+    {
+      "tag": "saludo",
+      "patterns": ["hola", "buen día", "qué tal", "hey"],
+      "responses": ["¡Hola! ¿Cómo estás?", "¡Hola! ¿En qué puedo ayudarte hoy?"]
+    },
+    {
+      "tag": "despedida",
+      "patterns": ["adiós", "nos vemos", "hasta luego"],
+      "responses": ["¡Hasta pronto!", "Cuídate mucho"]
+    },
+    {
+      "tag": "agradecimiento",
+      "patterns": ["gracias", "muchas gracias", "te lo agradezco"],
+      "responses": ["¡De nada!", "Con gusto, para eso estoy"]
+    },
+    {
+      "tag": "info_proyecto",
+      "patterns": ["qué puedes hacer", "qué sabes hacer", "cuál es tu función"],
+      "responses": ["Soy un chatbot de ejemplo desarrollado por Erick Lope. Puedo responder preguntas básicas y aprender nuevos patrones."]
+    }
+  ]
+}
